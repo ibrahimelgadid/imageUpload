@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="post/post-gallary/<%- post._id%>" 
+        method="post" 
+        class="dropzone"
+        id="dropzoneForm"
+        enctype="multipart/form-data">
+        <div class="fallback">
+            <input type="file" name="file" accept="image/*" multiple>
+            <input type="submit" value="Upload">
+        </div>
+    
+    </form>
+
+</body>
+</html>

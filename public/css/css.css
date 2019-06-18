@@ -1,0 +1,30 @@
+/* button a{
+    
+    text-decoration-style: none !important;
+    color: #fff;
+} */
+
+
+button{
+    color: #fff;
+    background-color: #46c773;
+    border: 1px solid #0a9e36;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+input[type=file]{
+    display: none;
+}
+
+
+#imgPreview{
+    margin: 20px
+}
+
+
+#noimage{
+    height: 100px;
+    width: 100px
+}
